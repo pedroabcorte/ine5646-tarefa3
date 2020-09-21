@@ -124,6 +124,63 @@ a:visited {
 	object-fit: cover;
 }
 
+.item-like-subcontainer {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	
+}
+
+.item-like, .item-dislike {
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	
+	opacity: 50%;
+	
+	object-fit: fill;
+}
+
+/* Botão clicado */
+.item-liked, .item-disliked {
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	
+	opacity: 100%;
+	
+	object-fit: fill;
+}
+
+.item-likeCount, .item-dislikeCount {
+	color: darkslategray;
+	width: 30%;
+  
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Quando um item é curtido */
+.item-likeCount-active {
+	color: green;
+	font-weight: bold;
+	width: 30%;
+  
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Quando um item é descurtido */
+.item-dislikeCount-active {
+	color: red;
+	font-weight: bold;
+	width: 30%;
+  
+	margin: 0px;
+	padding: 0px;
+}
+
 #footer {
 	height: 45px;
 
